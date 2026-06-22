@@ -17303,8 +17303,6 @@ window.onload=function()
 				},
 				function(){
 					Game.Launch();
-					if (top!=self && !Game.local) Game.ErrorFrame();
-					else
 					{
 						console.log('[=== '+choose([
 							'Oh, hello!',
